@@ -1,11 +1,11 @@
-import Todolist from "./todolist";
-
+import TodoList from "./todolist";
 function App() {
-    return (
-        <div className="App">
-        <h1>My Todo List</h1>
-        <Todolist />
-        </div>
-    );
-    }
-    export default App;
+  return (
+    <div className="App">
+      <h1>Todo List</h1>
+      <TodoList />
+    </div>
+  );
+}
+    
+export default App;
